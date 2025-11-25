@@ -1,0 +1,223 @@
+[
+  {
+    "fullName": "Dr. Carlos Mendoza López",
+    "specialty": "Cardiología",
+    "city": "Lima",
+    "address": "Av. Javier Prado 2465, San Isidro",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "987654321",
+    "rating": 4.8,
+    "reviewCount": 156,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. María González Ruiz",
+    "specialty": "Pediatría",
+    "city": "Lima",
+    "address": "Av. Larco 1301, Miraflores",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "965432187",
+    "rating": 4.9,
+    "reviewCount": 203,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. José Rodríguez Sánchez",
+    "specialty": "Dermatología",
+    "city": "Lima",
+    "address": "Calle Las Begonias 475, San Isidro",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "998765432",
+    "rating": 4.7,
+    "reviewCount": 89,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Ana Patricia Flores",
+    "specialty": "Ginecología",
+    "city": "Arequipa",
+    "address": "Av. Ejército 1012, Yanahuara",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "959876543",
+    "rating": 4.9,
+    "reviewCount": 178,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Luis Fernando Castro",
+    "specialty": "Traumatología",
+    "city": "Arequipa",
+    "address": "Calle Mercaderes 217, Centro Histórico",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "945123678",
+    "rating": 4.6,
+    "reviewCount": 134,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Carmen Rosa Díaz",
+    "specialty": "Oftalmología",
+    "city": "Lima",
+    "address": "Av. Conquistadores 1065, San Isidro",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "976543210",
+    "rating": 4.8,
+    "reviewCount": 167,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Roberto Vargas Huamán",
+    "specialty": "Neurología",
+    "city": "Cusco",
+    "address": "Av. de la Cultura 720, Cusco",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "984567890",
+    "rating": 4.7,
+    "reviewCount": 92,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Patricia Morales Vega",
+    "specialty": "Endocrinología",
+    "city": "Lima",
+    "address": "Av. Primavera 1618, Santiago de Surco",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "923456789",
+    "rating": 4.9,
+    "reviewCount": 215,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Miguel Ángel Torres",
+    "specialty": "Psiquiatría",
+    "city": "Lima",
+    "address": "Av. República de Panamá 3461, San Isidro",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "934567891",
+    "rating": 4.8,
+    "reviewCount": 143,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Sofía Ramírez Luna",
+    "specialty": "Nutrición",
+    "city": "Arequipa",
+    "address": "Calle San José 123, Yanahuara",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "912345678",
+    "rating": 4.7,
+    "reviewCount": 128,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Fernando Gutiérrez Paz",
+    "specialty": "Urología",
+    "city": "Lima",
+    "address": "Av. Angamos Este 2520, Surquillo",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "967890123",
+    "rating": 4.6,
+    "reviewCount": 98,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Gabriela Salas Rojas",
+    "specialty": "Psicología",
+    "city": "Cusco",
+    "address": "Av. El Sol 948, Cusco",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "956789012",
+    "rating": 4.9,
+    "reviewCount": 187,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Eduardo Paredes Silva",
+    "specialty": "Otorrinolaringología",
+    "city": "Lima",
+    "address": "Av. Benavides 2891, Miraflores",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "989012345",
+    "rating": 4.7,
+    "reviewCount": 112,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Lucía Campos Herrera",
+    "specialty": "Gastroenterología",
+    "city": "Arequipa",
+    "address": "Av. Parra 217, Cercado",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "943210987",
+    "rating": 4.8,
+    "reviewCount": 159,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Daniel Romero Cruz",
+    "specialty": "Oncología",
+    "city": "Lima",
+    "address": "Av. Brasil 600, Jesús María",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "921098765",
+    "rating": 4.9,
+    "reviewCount": 234,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Verónica Castillo Medina",
+    "specialty": "Reumatología",
+    "city": "Lima",
+    "address": "Calle Schell 319, Miraflores",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "978901234",
+    "rating": 4.7,
+    "reviewCount": 105,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Andrés Maldonado Quispe",
+    "specialty": "Neumología",
+    "city": "Cusco",
+    "address": "Av. Tullumayo 465, Wanchaq",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "932109876",
+    "rating": 4.6,
+    "reviewCount": 87,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Isabel Medina Flores",
+    "specialty": "Medicina General",
+    "city": "Lima",
+    "address": "Av. Arequipa 2985, Lince",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "910987654",
+    "rating": 4.8,
+    "reviewCount": 176,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dr. Ricardo Ponce Álvarez",
+    "specialty": "Cirugía General",
+    "city": "Arequipa",
+    "address": "Calle Bolognesi 523, Cercado",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "965432198",
+    "rating": 4.7,
+    "reviewCount": 141,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  },
+  {
+    "fullName": "Dra. Claudia Núñez Valdez",
+    "specialty": "Medicina Interna",
+    "city": "Lima",
+    "address": "Av. Javier Prado Oeste 980, Magdalena",
+    "phoneCountryCode": "+51",
+    "phoneNumber": "954321987",
+    "rating": 4.9,
+    "reviewCount": 198,
+    "sourceProfileUrl": "https://s3-sa-east-1.amazonaws.com/doctoralia.pe/doctor/6ec62b/6ec62b63e6151056b03f6ee90f1ee84a_medium_square.jpg"
+  }
+]
+

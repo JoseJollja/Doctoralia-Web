@@ -1,0 +1,614 @@
+[
+  {
+    "doctorIndex": 0,
+    "treatments": [
+      {
+        "name": "Consulta Cardiológica",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocardiograma",
+        "price": 80.00,
+        "currency": "PEN",
+        "durationMinutes": 20
+      },
+      {
+        "name": "Ecocardiograma",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Prueba de Esfuerzo",
+        "price": 300.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Holter de 24 horas",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 1,
+    "treatments": [
+      {
+        "name": "Consulta Pediátrica",
+        "price": 120.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control de Niño Sano",
+        "price": 100.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Vacunación",
+        "price": 50.00,
+        "currency": "PEN",
+        "durationMinutes": 15
+      },
+      {
+        "name": "Evaluación de Crecimiento",
+        "price": 130.00,
+        "currency": "PEN",
+        "durationMinutes": 40
+      }
+    ]
+  },
+  {
+    "doctorIndex": 2,
+    "treatments": [
+      {
+        "name": "Consulta Dermatológica",
+        "price": 140.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Acné",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Remoción de Lunares",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling Químico",
+        "price": 300.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Tratamiento de Manchas",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      }
+    ]
+  },
+  {
+    "doctorIndex": 3,
+    "treatments": [
+      {
+        "name": "Consulta Ginecológica",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Papanicolaou",
+        "price": 100.00,
+        "currency": "PEN",
+        "durationMinutes": 20
+      },
+      {
+        "name": "Ecografía Ginecológica",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control Prenatal",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 40
+      },
+      {
+        "name": "Inserción de DIU",
+        "price": 350.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 4,
+    "treatments": [
+      {
+        "name": "Consulta Traumatológica",
+        "price": 140.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración Articular",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 20
+      },
+      {
+        "name": "Evaluación de Fracturas",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Terapia Física",
+        "price": 80.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      }
+    ]
+  },
+  {
+    "doctorIndex": 5,
+    "treatments": [
+      {
+        "name": "Consulta Oftalmológica",
+        "price": 130.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Vista Completo",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 40
+      },
+      {
+        "name": "Medición de Presión Ocular",
+        "price": 60.00,
+        "currency": "PEN",
+        "durationMinutes": 15
+      },
+      {
+        "name": "Adaptación de Lentes de Contacto",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Fondo de Ojo",
+        "price": 100.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 6,
+    "treatments": [
+      {
+        "name": "Consulta Neurológica",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 40
+      },
+      {
+        "name": "Electroencefalograma",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Evaluación de Migraña",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Epilepsia",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      }
+    ]
+  },
+  {
+    "doctorIndex": 7,
+    "treatments": [
+      {
+        "name": "Consulta Endocrinológica",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control de Diabetes",
+        "price": 140.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Evaluación Tiroidea",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Obesidad",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Control Hormonal",
+        "price": 170.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 8,
+    "treatments": [
+      {
+        "name": "Consulta Psiquiátrica",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Psicoterapia Individual",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Evaluación Psiquiátrica",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Seguimiento de Tratamiento",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 9,
+    "treatments": [
+      {
+        "name": "Consulta Nutricional",
+        "price": 120.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Plan Alimenticio Personalizado",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Evaluación Antropométrica",
+        "price": 100.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control Nutricional",
+        "price": 110.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 10,
+    "treatments": [
+      {
+        "name": "Consulta Urológica",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía Prostática",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cistoscopia",
+        "price": 400.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Tratamiento de Cálculos Renales",
+        "price": 300.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      }
+    ]
+  },
+  {
+    "doctorIndex": 11,
+    "treatments": [
+      {
+        "name": "Terapia Psicológica Individual",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Terapia de Pareja",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Evaluación Psicológica",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 90
+      },
+      {
+        "name": "Terapia Familiar",
+        "price": 220.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      }
+    ]
+  },
+  {
+    "doctorIndex": 12,
+    "treatments": [
+      {
+        "name": "Consulta Otorrinolaringológica",
+        "price": 140.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Audiometría",
+        "price": 120.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Nasofaringoscopia",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza de Oídos",
+        "price": 80.00,
+        "currency": "PEN",
+        "durationMinutes": 20
+      }
+    ]
+  },
+  {
+    "doctorIndex": 13,
+    "treatments": [
+      {
+        "name": "Consulta Gastroenterológica",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Endoscopia Digestiva",
+        "price": 500.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Colonoscopia",
+        "price": 600.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Ecografía Abdominal",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 14,
+    "treatments": [
+      {
+        "name": "Consulta Oncológica",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Quimioterapia",
+        "price": 1500.00,
+        "currency": "PEN",
+        "durationMinutes": 180
+      },
+      {
+        "name": "Evaluación Oncológica Inicial",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      },
+      {
+        "name": "Seguimiento Post-Tratamiento",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 15,
+    "treatments": [
+      {
+        "name": "Consulta Reumatológica",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración Articular",
+        "price": 220.00,
+        "currency": "PEN",
+        "durationMinutes": 20
+      },
+      {
+        "name": "Evaluación de Artritis",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 40
+      },
+      {
+        "name": "Densitometría Ósea",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 16,
+    "treatments": [
+      {
+        "name": "Consulta Neumológica",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Espirometría",
+        "price": 120.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Prueba de Función Pulmonar",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Control de Asma",
+        "price": 140.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 17,
+    "treatments": [
+      {
+        "name": "Consulta Médica General",
+        "price": 100.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo Médico Preventivo",
+        "price": 150.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Certificado Médico",
+        "price": 60.00,
+        "currency": "PEN",
+        "durationMinutes": 15
+      },
+      {
+        "name": "Control de Presión Arterial",
+        "price": 50.00,
+        "currency": "PEN",
+        "durationMinutes": 15
+      }
+    ]
+  },
+  {
+    "doctorIndex": 18,
+    "treatments": [
+      {
+        "name": "Consulta Quirúrgica",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía de Vesícula",
+        "price": 3500.00,
+        "currency": "PEN",
+        "durationMinutes": 120
+      },
+      {
+        "name": "Cirugía de Hernia",
+        "price": 3000.00,
+        "currency": "PEN",
+        "durationMinutes": 90
+      },
+      {
+        "name": "Evaluación Pre-Quirúrgica",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      }
+    ]
+  },
+  {
+    "doctorIndex": 19,
+    "treatments": [
+      {
+        "name": "Consulta de Medicina Interna",
+        "price": 160.00,
+        "currency": "PEN",
+        "durationMinutes": 40
+      },
+      {
+        "name": "Evaluación de Enfermedades Crónicas",
+        "price": 180.00,
+        "currency": "PEN",
+        "durationMinutes": 45
+      },
+      {
+        "name": "Interconsulta Médica",
+        "price": 200.00,
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo Integral",
+        "price": 250.00,
+        "currency": "PEN",
+        "durationMinutes": 60
+      }
+    ]
+  }
+]
+
+
