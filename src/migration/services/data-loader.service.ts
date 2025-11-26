@@ -39,5 +39,3 @@ export class DataLoaderService {
     return availability;
   }
 }
-
-
