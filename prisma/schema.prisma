@@ -53,7 +53,7 @@ model Treatment {
   id              BigInt        @id @default(autoincrement())
   doctorId        BigInt        @map("doctor_id")
   name            String        @db.Text
-  price           Decimal?      @db.Decimal(10, 2)
+  price           String?       @db.Text
   currency        String?       @db.Char(3)
   durationMinutes Int?          @map("duration_minutes") @db.SmallInt
   doctor          Doctor        @relation(fields: [doctorId], references: [id])

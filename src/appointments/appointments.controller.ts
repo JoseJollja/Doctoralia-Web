@@ -30,7 +30,12 @@ export class AppointmentsController {
     this.logger.log(`Calendar request: ${JSON.stringify(filters)}`);
     const start = filters.startDate ? new Date(filters.startDate) : undefined;
     const end = filters.endDate ? new Date(filters.endDate) : undefined;
-    return this.appointmentsService.getAppointmentsCalendar(start, end);
+    const doctorId = filters.doctorId ? BigInt(filters.doctorId) : undefined;
+    return this.appointmentsService.getAppointmentsCalendar(
+      start,
+      end,
+      doctorId,
+    );
   }
 
   @Get('doctor/:doctorId')

@@ -37,6 +37,11 @@ export class DatabaseService
     this.logger.log('Database disconnected');
   }
 
+  async isDatabaseEmpty(): Promise<boolean> {
+    const doctorCount = await this.doctor.count();
+    return doctorCount === 0;
+  }
+
   async cleanDatabase() {
     this.logger.log('Cleaning database...');
 

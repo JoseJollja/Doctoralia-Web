@@ -3,33 +3,69 @@
     "doctorIndex": 0,
     "treatments": [
       {
-        "name": "Consulta Cardiológica",
-        "price": 150.0,
-        "currency": "PEN",
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
         "durationMinutes": 30
       },
       {
-        "name": "Electrocardiograma",
-        "price": 80.0,
-        "currency": "PEN",
-        "durationMinutes": 20
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Ecocardiograma",
-        "price": 250.0,
-        "currency": "PEN",
-        "durationMinutes": 45
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Prueba de Esfuerzo",
-        "price": 300.0,
-        "currency": "PEN",
-        "durationMinutes": 60
+        "name": "Colposcopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Holter de 24 horas",
-        "price": 200.0,
-        "currency": "PEN",
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Polipectomía por histeroscopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento vaginal laser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento láser de verrugas por virus del papiloma humano",
+        "price": "",
+        "currency": "",
         "durationMinutes": 30
       }
     ]
@@ -38,28 +74,304 @@
     "doctorIndex": 1,
     "treatments": [
       {
-        "name": "Consulta Pediátrica",
-        "price": 120.0,
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "100.00 - 150.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Control de Niño Sano",
-        "price": 100.0,
+        "name": "Ecografía morfológica",
+        "price": "200.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Vacunación",
-        "price": 50.0,
+        "name": "Consulta y ecografía ginecológica",
+        "price": "150.00 - 250.00",
         "currency": "PEN",
-        "durationMinutes": 15
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación de Crecimiento",
-        "price": 130.0,
+        "name": "Consulta y ecografía obstétrica",
+        "price": "150.00",
         "currency": "PEN",
-        "durationMinutes": 40
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y PAPANICOLAU (PAP)",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Doppler de partes blandas",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "150.00 - 200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía genética",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "350.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Extripación de quiste",
+        "price": "6500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "3500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mastectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Polipectomía por histeroscopia",
+        "price": "3500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Prolapso vaginal cirugía convencional y laparoscópica",
+        "price": "7000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Punciones",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "6000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y ECOGRAFIA DE MAMA",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de Fertilidad",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ginecología oncológica y mamaria",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Oncología",
+        "price": "100.00 - 150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Oncología",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Oncología",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta oncológica ginecológica",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "1500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ginecología Oncológica",
+        "price": "100.00 - 150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Oncología",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Mínimamente Invasivas",
+        "price": "7000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "6000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Laparoscópicas Ginecológicas",
+        "price": "7000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo Ginecológico Integral",
+        "price": "350.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea con histerectomia postparto",
+        "price": "6000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo ginecológico",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento vaginal laser",
+        "price": "600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "350.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia endometrial",
+        "price": "1500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta ginecológica",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histerectomia",
+        "price": "6000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de mama y tru-cut",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "350.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "800.00",
+        "currency": "PEN",
+        "durationMinutes": 30
       }
     ]
   },
@@ -67,34 +379,148 @@
     "doctorIndex": 2,
     "treatments": [
       {
-        "name": "Consulta Dermatológica",
-        "price": 140.0,
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "50.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Tratamiento de Acné",
-        "price": 180.0,
-        "currency": "PEN",
-        "durationMinutes": 45
-      },
-      {
-        "name": "Remoción de Lunares",
-        "price": 250.0,
+        "name": "Consulta y ecografía obstétrica",
+        "price": "120.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Peeling Químico",
-        "price": 300.0,
+        "name": "Tratamiento de la pérdida de orina",
+        "price": "500.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       },
       {
-        "name": "Tratamiento de Manchas",
-        "price": 200.0,
+        "name": "Legrado uterino",
+        "price": "1000.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histerectomia",
+        "price": "4000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía Doppler",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y PAPANICOLAU (PAP)",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta y ecografía ginecológica",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y ECOGRAFIA DE MAMA",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo integral",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo ginecológico",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cheque Ginecològico Premium",
+        "price": "180.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "4500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento láser de verrugas por virus del papiloma humano",
+        "price": "300.00 - 600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia genética fetal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento vaginal laser",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Test de Cobas",
+        "price": "450.00",
+        "currency": "PEN",
+        "durationMinutes": 30
       }
     ]
   },
@@ -102,32 +528,272 @@
     "doctorIndex": 3,
     "treatments": [
       {
-        "name": "Consulta Ginecológica",
-        "price": 150.0,
+        "name": "Consulta online",
+        "price": "150.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Papanicolaou",
-        "price": 100.0,
-        "currency": "PEN",
-        "durationMinutes": 20
-      },
-      {
-        "name": "Ecografía Ginecológica",
-        "price": 180.0,
+        "name": "Ecografía morfológica",
+        "price": "250.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Control Prenatal",
-        "price": 160.0,
+        "name": "Consulta y ecografía ginecológica",
+        "price": "250.00",
         "currency": "PEN",
-        "durationMinutes": 40
+        "durationMinutes": 30
       },
       {
-        "name": "Inserción de DIU",
-        "price": 350.0,
+        "name": "Consulta y ecografía obstétrica",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del embarazo",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cultivo de secreción vaginal",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "2500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Métodos anticonceptivos",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Parto múltiple",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "2500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Prolapso vaginal cirugía convencional y laparoscópica",
+        "price": "3500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "3500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Test de Cobas",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "2500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugia en fertilidad femenina",
+        "price": "2500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Laparoscópicas Ginecológicas",
+        "price": "3000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Mínimamente Invasivas",
+        "price": "3000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de Fertilidad",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta ginecológica",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía genética",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Fertilización in vitro (FIV)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación Intrauterina",
+        "price": "2400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "4000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Amniocentesis",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "4000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "2000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia endometrial",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "2500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo Ginecológico Integral",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento láser de verrugas por virus del papiloma humano",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de infertilidad",
+        "price": "300.00",
         "currency": "PEN",
         "durationMinutes": 30
       }
@@ -137,28 +803,160 @@
     "doctorIndex": 4,
     "treatments": [
       {
-        "name": "Consulta Traumatológica",
-        "price": 140.0,
+        "name": "Polipectomía por histeroscopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Amniocentesis",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "1.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Infiltración Articular",
-        "price": 200.0,
-        "currency": "PEN",
-        "durationMinutes": 20
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación de Fracturas",
-        "price": 160.0,
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "250.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Terapia Física",
-        "price": 80.0,
-        "currency": "PEN",
-        "durationMinutes": 45
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del embarazo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía genética",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía morfológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de Fertilidad",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       }
     ]
   },
@@ -166,32 +964,140 @@
     "doctorIndex": 5,
     "treatments": [
       {
-        "name": "Consulta Oftalmológica",
-        "price": 130.0,
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "240.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Examen de Vista Completo",
-        "price": 150.0,
-        "currency": "PEN",
-        "durationMinutes": 40
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Medición de Presión Ocular",
-        "price": 60.0,
-        "currency": "PEN",
-        "durationMinutes": 15
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Adaptación de Lentes de Contacto",
-        "price": 180.0,
-        "currency": "PEN",
-        "durationMinutes": 45
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Fondo de Ojo",
-        "price": 100.0,
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "110.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "170.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta ginecológica",
+        "price": "120.00",
         "currency": "PEN",
         "durationMinutes": 30
       }
@@ -201,28 +1107,178 @@
     "doctorIndex": 6,
     "treatments": [
       {
-        "name": "Consulta Neurológica",
-        "price": 180.0,
-        "currency": "PEN",
-        "durationMinutes": 40
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Electroencefalograma",
-        "price": 250.0,
-        "currency": "PEN",
-        "durationMinutes": 60
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación de Migraña",
-        "price": 160.0,
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "60.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Tratamiento de Epilepsia",
-        "price": 200.0,
-        "currency": "PEN",
-        "durationMinutes": 45
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       }
     ]
   },
@@ -230,32 +1286,86 @@
     "doctorIndex": 7,
     "treatments": [
       {
-        "name": "Consulta Endocrinológica",
-        "price": 160.0,
+        "name": "Consulta online",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Control de Diabetes",
-        "price": 140.0,
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Evaluación Tiroidea",
-        "price": 150.0,
+        "name": "Chequeo ginecológico",
+        "price": "300.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Tratamiento de Obesidad",
-        "price": 180.0,
+        "name": "Chequeo Ginecológico Integral",
+        "price": "350.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
       },
       {
-        "name": "Control Hormonal",
-        "price": 170.0,
+        "name": "Chequeo premium",
+        "price": "600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía Doppler",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía genética",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía morfológica",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Test de Cobas",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Vacuna contra el VPH",
+        "price": "590.00",
         "currency": "PEN",
         "durationMinutes": 30
       }
@@ -265,27 +1375,189 @@
     "doctorIndex": 8,
     "treatments": [
       {
-        "name": "Consulta Psiquiátrica",
-        "price": 200.0,
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "150.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
       },
       {
-        "name": "Psicoterapia Individual",
-        "price": 180.0,
-        "currency": "PEN",
-        "durationMinutes": 60
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación Psiquiátrica",
-        "price": 250.0,
+        "name": "Rejuvenecimiento vaginal laser",
+        "price": "400.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       },
       {
-        "name": "Seguimiento de Tratamiento",
-        "price": 160.0,
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "50.00",
         "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de infertilidad",
+        "price": "180.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "380.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo Ginecológico Integral",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Chequeo ginecológico",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Oncología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
         "durationMinutes": 30
       }
     ]
@@ -294,27 +1566,141 @@
     "doctorIndex": 9,
     "treatments": [
       {
-        "name": "Consulta Nutricional",
-        "price": 120.0,
-        "currency": "PEN",
-        "durationMinutes": 45
-      },
-      {
-        "name": "Plan Alimenticio Personalizado",
-        "price": 150.0,
-        "currency": "PEN",
-        "durationMinutes": 60
-      },
-      {
-        "name": "Evaluación Antropométrica",
-        "price": 100.0,
-        "currency": "PEN",
+        "name": "Consulta online",
+        "price": "",
+        "currency": "",
         "durationMinutes": 30
       },
       {
-        "name": "Control Nutricional",
-        "price": 110.0,
-        "currency": "PEN",
+        "name": "Ecografía Doppler",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento vaginal laser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Prolapso vaginal cirugía convencional y laparoscópica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Métodos anticonceptivos",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histerectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía morfológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia genética fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del embarazo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Laparoscópicas Ginecológicas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia endometrial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Vacuna contra el virus de Papiloma Humano",
+        "price": "",
+        "currency": "",
         "durationMinutes": 30
       }
     ]
@@ -323,28 +1709,22 @@
     "doctorIndex": 10,
     "treatments": [
       {
-        "name": "Consulta Urológica",
-        "price": 150.0,
+        "name": "Visita Pediatría",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Ecografía Prostática",
-        "price": 200.0,
+        "name": "Consulta online",
+        "price": "70.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Cistoscopia",
-        "price": 400.0,
+        "name": "Inmunizaciones (vacunas)",
+        "price": "80.00",
         "currency": "PEN",
-        "durationMinutes": 45
-      },
-      {
-        "name": "Tratamiento de Cálculos Renales",
-        "price": 300.0,
-        "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       }
     ]
   },
@@ -352,28 +1732,34 @@
     "doctorIndex": 11,
     "treatments": [
       {
-        "name": "Terapia Psicológica Individual",
-        "price": 150.0,
+        "name": "Visita Pediatría",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       },
       {
-        "name": "Terapia de Pareja",
-        "price": 200.0,
+        "name": "Consulta online",
+        "price": "70.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación Psicológica",
-        "price": 180.0,
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 90
+        "durationMinutes": 30
       },
       {
-        "name": "Terapia Familiar",
-        "price": 220.0,
+        "name": "Consulta presencial",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del niño sano",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
       }
     ]
   },
@@ -381,28 +1767,130 @@
     "doctorIndex": 12,
     "treatments": [
       {
-        "name": "Consulta Otorrinolaringológica",
-        "price": 140.0,
+        "name": "Control del niño sano",
+        "price": "60.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Audiometría",
-        "price": 120.0,
+        "name": "Pediatria funcional",
+        "price": "60.00 - 80.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Nasofaringoscopia",
-        "price": 250.0,
+        "name": "Visita Pediatría",
+        "price": "60.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Limpieza de Oídos",
-        "price": 80.0,
+        "name": "Visitas sucesivas Pediatría",
+        "price": "60.00",
         "currency": "PEN",
-        "durationMinutes": 20
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoría para picky eaters",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta a domicilio",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta del recién nacido",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta pediátrica presencial",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamientos de enfermedades en pediatria",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Dermatología pediatrica",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Estimulación temprana",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Evaluación respiratoria COVID",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento para estreñimiento",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Musicoterapia",
+        "price": "60.00 - 80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Orientación médica virtual",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inmunizaciones (vacunas)",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Pediatría",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Pediatría",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
       }
     ]
   },
@@ -410,26 +1898,62 @@
     "doctorIndex": 13,
     "treatments": [
       {
-        "name": "Consulta Gastroenterológica",
-        "price": 160.0,
+        "name": "Visita Pediatría",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Endoscopia Digestiva",
-        "price": 500.0,
+        "name": "Consulta online",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
       },
       {
-        "name": "Colonoscopia",
-        "price": 600.0,
+        "name": "Primera visita Pediatría",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       },
       {
-        "name": "Ecografía Abdominal",
-        "price": 180.0,
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoría de alimentación complementaria",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta del recién nacido",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del niño sano",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inmunizaciones (vacunas)",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento para estreñimiento",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamientos de enfermedades en pediatria",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       }
@@ -439,26 +1963,32 @@
     "doctorIndex": 14,
     "treatments": [
       {
-        "name": "Consulta Oncológica",
-        "price": 200.0,
+        "name": "Consulta online",
+        "price": "250.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
       },
       {
-        "name": "Quimioterapia",
-        "price": 1500.0,
+        "name": "Visita Neurología",
+        "price": "250.00",
         "currency": "PEN",
-        "durationMinutes": 180
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación Oncológica Inicial",
-        "price": 250.0,
+        "name": "Consulta presencial",
+        "price": "300.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
       },
       {
-        "name": "Seguimiento Post-Tratamiento",
-        "price": 180.0,
+        "name": "Potenciales evocados auditivos",
+        "price": "350.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Potenciales evocados visuales",
+        "price": "350.00",
         "currency": "PEN",
         "durationMinutes": 30
       }
@@ -468,26 +1998,38 @@
     "doctorIndex": 15,
     "treatments": [
       {
-        "name": "Consulta Reumatológica",
-        "price": 160.0,
+        "name": "Primera visita Pediatría",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Infiltración Articular",
-        "price": 220.0,
+        "name": "Visita Pediatría",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 20
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación de Artritis",
-        "price": 180.0,
+        "name": "Visitas sucesivas Pediatría",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 40
+        "durationMinutes": 30
       },
       {
-        "name": "Densitometría Ósea",
-        "price": 250.0,
+        "name": "Control del niño sano",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inmunizaciones (vacunas)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       }
@@ -497,27 +2039,33 @@
     "doctorIndex": 16,
     "treatments": [
       {
-        "name": "Consulta Neumológica",
-        "price": 150.0,
+        "name": "Consulta especializada",
+        "price": "150.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Espirometría",
-        "price": 120.0,
+        "name": "Consulta online",
+        "price": "80.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Prueba de Función Pulmonar",
-        "price": 200.0,
+        "name": "Consulta Especializada en Neumología pediátrica",
+        "price": "150.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
       },
       {
-        "name": "Control de Asma",
-        "price": 140.0,
-        "currency": "PEN",
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Test de feno",
+        "price": "",
+        "currency": "",
         "durationMinutes": 30
       }
     ]
@@ -526,28 +2074,28 @@
     "doctorIndex": 17,
     "treatments": [
       {
-        "name": "Consulta Médica General",
-        "price": 100.0,
+        "name": "Control del niño sano",
+        "price": "100.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Chequeo Médico Preventivo",
-        "price": 150.0,
+        "name": "Consulta pediátrica presencial",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
       },
       {
-        "name": "Certificado Médico",
-        "price": 60.0,
+        "name": "Consulta online",
+        "price": "70.00",
         "currency": "PEN",
-        "durationMinutes": 15
+        "durationMinutes": 30
       },
       {
-        "name": "Control de Presión Arterial",
-        "price": 50.0,
+        "name": "Inmunizaciones (vacunas)",
+        "price": "100.00",
         "currency": "PEN",
-        "durationMinutes": 15
+        "durationMinutes": 30
       }
     ]
   },
@@ -555,28 +2103,112 @@
     "doctorIndex": 18,
     "treatments": [
       {
-        "name": "Consulta Quirúrgica",
-        "price": 180.0,
+        "name": "Consulta online",
+        "price": "150.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Cirugía de Vesícula",
-        "price": 3500.0,
-        "currency": "PEN",
-        "durationMinutes": 120
+        "name": "Test de Caminata de 6 minutos",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Cirugía de Hernia",
-        "price": 3000.0,
-        "currency": "PEN",
-        "durationMinutes": 90
+        "name": "Visitas sucesivas Neumología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       },
       {
-        "name": "Evaluación Pre-Quirúrgica",
-        "price": 200.0,
+        "name": "Visita Neumología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Neumonía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de bronquiectasias",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de broncoespasmo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Asma",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Neumología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta Especializada en Neumología pediátrica",
+        "price": "150.00",
         "currency": "PEN",
-        "durationMinutes": 45
+        "durationMinutes": 30
+      },
+      {
+        "name": "Lavado bronquial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Fisioterapia respiratoria",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Espirometría",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Espirometria simple",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Descarte de Asma",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Descarte de apnea del sueño",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Volumetria y capacidad pulmonar",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
       }
     ]
   },
@@ -584,28 +2216,3789 @@
     "doctorIndex": 19,
     "treatments": [
       {
-        "name": "Consulta de Medicina Interna",
-        "price": 160.0,
-        "currency": "PEN",
-        "durationMinutes": 40
-      },
-      {
-        "name": "Evaluación de Enfermedades Crónicas",
-        "price": 180.0,
-        "currency": "PEN",
-        "durationMinutes": 45
-      },
-      {
-        "name": "Interconsulta Médica",
-        "price": 200.0,
+        "name": "Consulta dermatológica",
+        "price": "70.00",
         "currency": "PEN",
         "durationMinutes": 30
       },
       {
-        "name": "Chequeo Integral",
-        "price": 250.0,
+        "name": "Primera visita Dermatología",
+        "price": "70.00",
         "currency": "PEN",
-        "durationMinutes": 60
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Vitiligo con Láser Exclilite",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de Melasma",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de estrías",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Radiofrecuencia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plasma rico en Plaquetas (PRP)",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Microdermoabrasión con punta de diamante",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Láser CO2",
+        "price": "650.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza hidrofacial",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen con Luz de Wood",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de lunares",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Dermatologia clinica, pediatrica, quirurgica, estetica, cosmetica y laser",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Curetaje",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Crioterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento del acné con láser",
+        "price": "650.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicacion de Toxina Botulinica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Depilación láser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Dermatología pediatrica",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza facial",
+        "price": "110.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamientos esteticos con laser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de ácido hialurónico",
+        "price": "800.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Bioestimulador de colágeno",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel, mucosas y/o anexos",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Luz pulsada intensa",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltraciones",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento del Melasma",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "310.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 20,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Dermatologia clinica, pediatrica, quirurgica, estetica, cosmetica y laser",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 21,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Radiofrecuencia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plasma rico en Plaquetas (PRP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peelings",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen con Luz de Wood",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de lunares",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Depilación definitiva",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Curetaje",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Criocirugía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Crioterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de ácido hialurónico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamientos esteticos con laser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 22,
+    "treatments": [
+      {
+        "name": "Visita Dermatología",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 23,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento del Melasma",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de estrías",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rinomodelación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rellenos inyectables",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Radiofrecuencia",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plasma rico en Plaquetas (PRP)",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peelings",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Láser CO2",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Luz pulsada",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza hidrofacial",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza facial",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Galvanocauterización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "140.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen con Luz de Wood",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de ácido hialurónico",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Bioestimulador de colágeno",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Dermatologia clinica, pediatrica, quirurgica, estetica, cosmetica y laser",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel, mucosas y/o anexos",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Criocirugía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Crioterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Curetaje",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Depilación láser",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Dermatología pediatrica",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de lunares",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de manchas oscuras con láser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamientos esteticos con laser",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "140.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicacion de Toxina Botulinica",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 24,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Radiofrecuencia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plasma rico en Plaquetas (PRP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peelings",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltraciones",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen con Luz de Wood",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de manchas oscuras con láser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de lunares",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Depilación definitiva",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta dermatológica",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Curetaje",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Crioterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Criocirugía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de ácido hialurónico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Dermatología",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Medicina Estética",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Dermatología",
+        "price": "0.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rellenos de arrugas a base de ácido hialurónico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 25,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "150.00 - 200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza facial",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 26,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Dermatología",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Dermatología",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Curetaje",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de lunares",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peelings",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Topicación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Dermatología",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 27,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "0.00 - 100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Dermatología",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 28,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Limpieza facial",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamientos esteticos con laser",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "900.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Procedimientos de cirugía menor",
+        "price": "600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plasma rico en Plaquetas (PRP)",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "150.00 - 250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Depilación láser",
+        "price": "40.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Criocirugía",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel, mucosas y/o anexos",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicacion de Toxina Botulinica",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Dermatología",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Dermatología",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Medicina Estética",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltraciones",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "300.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 29,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "80.00 - 100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Preparación al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Polipectomía por histeroscopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación artificial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ovariectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Métodos anticonceptivos",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Parto múltiple",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Fertilización in vitro (FIV)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación de cerclaje de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea con histerectomia postparto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 30,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Procedimientos menores suturas y retiro de puntos",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Procedimientos menores curaciones",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 31,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "1500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "3600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "3000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Parto múltiple",
+        "price": "3000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ovariectomia",
+        "price": "2900.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Métodos anticonceptivos",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "3600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "900.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "3500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Ginecología y Obstetricia",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 3D",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "60.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "1000.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "3800.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "1.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 32,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Oncología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 33,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación artificial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Parto múltiple",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Amniocentesis",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 3D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación de cerclaje de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Test Prenatal No Invasivo",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 34,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Fertilización in vitro (FIV)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación artificial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Polipectomía por histeroscopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 35,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 36,
+    "treatments": [
+      {
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de infertilidad",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Ginecología y Obstetricia",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación de cerclaje de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea con histerectomia postparto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 37,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 38,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "50.00 - 70.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Neonatología",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Pediatría",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del niño sano",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Estimulación temprana",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inmunizaciones (vacunas)",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Musicoterapia",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 39,
+    "treatments": [
+      {
+        "name": "Visita Gastroenterología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 40,
+    "treatments": [
+      {
+        "name": "Visita Pediatría",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Pediatría",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inmunizaciones (vacunas)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Pediatría",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 41,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de lunares",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Procedimientos de cirugía menor",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plasma rico en Plaquetas (PRP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peelings",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltraciones",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen con Luz de Wood",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Eliminación de manchas oscuras con láser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Depilación definitiva",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Crioterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Criocirugía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 42,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia genética fetal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Parto múltiple",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ovariectomia",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación artificial",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación de cerclaje de cuello uterino",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea con histerectomia postparto",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 43,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta ginecológica",
+        "price": "200.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 3D",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía genética",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía morfológica",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Vacuna contra el virus de Papiloma Humano",
+        "price": "600.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 44,
+    "treatments": [
+      {
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "160.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Papanicoloa",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Fertilización in vitro (FIV)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación artificial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación Intrauterina",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ovariectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Parto múltiple",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Polipectomía por histeroscopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Prolapso vaginal cirugía convencional y laparoscópica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Punción ovárica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento vaginal laser",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de la Pareja Infertil",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento láser de verrugas por virus del papiloma humano",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Técnicas de Reproducción Asistida",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "400.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "160.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "160.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Laparoscópicas Ginecológicas",
+        "price": "8.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugías Mínimamente Invasivas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "40.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación de cerclaje de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "1500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de Fertilidad",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del embarazo",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta online",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta ginecológica",
+        "price": "160.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cheque Ginecològico Premium",
+        "price": "500.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Extripación de quiste",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta y ecografía ginecológica",
+        "price": "160.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 45,
+    "treatments": [
+      {
+        "name": "Consulta Ginecológica y Embarazo",
+        "price": "150.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Citología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 46,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de Fertilidad",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de infertilidad",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta médica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y ECOGRAFIA DE MAMA",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 47,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "140.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ginecología Oncológica",
+        "price": "140.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 48,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen de Papanicolau (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Anexectomía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía 4D",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 49,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y PAPANICOLAU (PAP)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera vista",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Fertilización in vitro (FIV)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía mamaria",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta y ecografía obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta y ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "CONSULTA Y ECOGRAFIA DE MAMA",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta de infertilidad",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "COLOCACION DE MIRENA",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea con histerectomia postparto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "TIPIFICACION VPH",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 50,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Quistectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Plastias vaginales",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Monitorización materno-fetal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Miomectomia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Marsupialización",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ligadura de trompas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Legrado uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inseminación artificial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Histeroscopia diagnóstica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia transvaginal",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografia obstétrica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colposcopia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación del DIU",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Colocación de cerclaje de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia quirúrgica de mama",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asistencia y control al parto",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Tratamiento de condilomas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 51,
+    "treatments": [
+      {
+        "name": "Visita Ginecología y Obstetricia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biópsia de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cesárea",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Conización de cuello uterino",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Ecografía ginecológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 52,
+    "treatments": [
+      {
+        "name": "Visita Pediatría",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta pediátrica presencial",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 53,
+    "treatments": [
+      {
+        "name": "Consulta online",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita Pediatría",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Pediatría",
+        "price": "50.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Asesoramiento Lactancia Materna",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Inmunizaciones (vacunas)",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visita domiciliaria Pediatría",
+        "price": "250.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Control del niño sano",
+        "price": "120.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 54,
+    "treatments": [
+      {
+        "name": "Consulta dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Primera visita Medicina Estética",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Visitas sucesivas Dermatología",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Consulta presencial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltraciones",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 55,
+    "treatments": [
+      {
+        "name": "Visita Dermatología",
+        "price": "80.00",
+        "currency": "PEN",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Aplicación de Toxina Botulínica (Botox)",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Biopsia de piel y mucosas",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Cirugía Dermatológica",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Criocirugía",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Crioterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Curetaje",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Electrocoagulación",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Examen con Luz de Wood",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Infiltración",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Mesoterapia",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peeling químico",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Peelings",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      },
+      {
+        "name": "Rejuvenecimiento facial",
+        "price": "",
+        "currency": "",
+        "durationMinutes": 30
+      }
+    ]
+  },
+  {
+    "doctorIndex": 56,
+    "treatments": [
+      {
+        "name": "Visita Dermatología",
+        "price": "100.00",
+        "currency": "PEN",
+        "durationMinutes": 30
       }
     ]
   }

@@ -100,12 +100,17 @@ export class AppointmentsService {
   async getAppointmentsCalendar(
     startDate?: Date,
     endDate?: Date,
+    doctorId?: bigint,
   ): Promise<Appointment[]> {
     this.logger.log(
-      `Getting appointments calendar from ${startDate} to ${endDate}`,
+      `Getting appointments calendar from ${startDate} to ${endDate}${doctorId ? ` for doctor ${doctorId}` : ''}`,
     );
 
     const where: any = {};
+
+    if (doctorId) {
+      where.doctorId = doctorId;
+    }
 
     if (startDate || endDate) {
       where.startAt = {};

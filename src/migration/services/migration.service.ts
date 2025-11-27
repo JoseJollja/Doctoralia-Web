@@ -23,10 +23,24 @@ export class MigrationService {
   async runMigration(): Promise<void> {
     try {
       this.logger.log('========================================');
-      this.logger.log('Starting data migration process...');
+      this.logger.log('Checking database status...');
       this.logger.log('========================================');
 
-      // Step 1: Clean existing data
+      // Check if database is empty
+      const isEmpty = await this.database.isDatabaseEmpty();
+
+      if (!isEmpty) {
+        this.logger.log('Database already contains data. Skipping migration.');
+        this.logger.log(
+          'If you want to reset the database, please clear it manually.',
+        );
+        return;
+      }
+
+      this.logger.log('Database is empty. Starting data migration process...');
+      this.logger.log('========================================');
+
+      // Step 1: Clean existing data (should be empty, but just in case)
       await this.database.cleanDatabase();
 
       // Step 2: Load data from JSON files
@@ -72,9 +86,10 @@ export class MigrationService {
             data: {
               doctorId: doctor.id,
               name: treatmentData.name,
-              price: treatmentData.price
-                ? new Decimal(treatmentData.price)
-                : null,
+              price:
+                treatmentData.price && treatmentData.price.trim() !== ''
+                  ? treatmentData.price
+                  : null,
               currency: treatmentData.currency,
               durationMinutes: treatmentData.durationMinutes,
             },

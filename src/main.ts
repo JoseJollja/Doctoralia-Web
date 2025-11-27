@@ -5,6 +5,13 @@ import { MigrationService } from './migration/services/migration.service';
 import { Logger } from '@nestjs/common';
 import { TransformInterceptor } from './common/interceptors/transform.interceptor';
 import { HttpExceptionFilter } from './common/filters/http-exception.filter';
+import { Prisma } from './generated/client';
+
+if (Prisma && Prisma.Decimal && Prisma.Decimal.prototype) {
+  Prisma.Decimal.prototype.toJSON = function () {
+    return this.toNumber();
+  };
+}
 
 async function bootstrap() {
   const logger = new Logger('Bootstrap');

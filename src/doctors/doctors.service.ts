@@ -9,7 +9,7 @@ export class DoctorsService {
 
   constructor(private readonly database: DatabaseService) {}
 
-  async searchDoctors(searchDto: SearchDoctorsDto): Promise<Doctor[]> {
+  async searchDoctors(searchDto: SearchDoctorsDto) {
     this.logger.log(
       `Searching doctors with filters: ${JSON.stringify(searchDto)}`,
     );
@@ -32,6 +32,23 @@ export class DoctorsService {
 
     const doctors = await this.database.doctor.findMany({
       where,
+      include: {
+        availability: {
+          where: {
+            startAt: {
+              gte: new Date(),
+            },
+          },
+          orderBy: {
+            startAt: 'asc',
+          },
+        },
+        treatments: {
+          orderBy: {
+            name: 'asc',
+          },
+        },
+      },
       orderBy: {
         rating: 'desc',
       },

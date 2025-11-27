@@ -8,6 +8,13 @@ import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { Response } from 'express';
 
+function jsonReplacer(key: string, value: any): any {
+  if (typeof value === 'bigint') {
+    return value.toString();
+  }
+  return value;
+}
+
 export interface ApiResponse<T> {
   state: boolean;
   status: number;
@@ -34,14 +41,16 @@ export class TransformInterceptor<T>
 
     return next.handle().pipe(
       map((data) => {
+        const serializedData = JSON.parse(JSON.stringify(data, jsonReplacer));
+
         // Si la respuesta ya tiene la estructura esperada, retornarla tal cual
         if (
-          data &&
-          typeof data === 'object' &&
-          'state' in data &&
-          'payload' in data
+          serializedData &&
+          typeof serializedData === 'object' &&
+          'state' in serializedData &&
+          'payload' in serializedData
         ) {
-          return data;
+          return serializedData;
         }
 
         // Determinar el mensaje según el método HTTP y la ruta
@@ -78,12 +87,12 @@ export class TransformInterceptor<T>
         return {
           state: true,
           status,
-          message,
+          message: 'El proceso se completó satisfactoriamente.',
           payload: {
             state: true,
             message: message,
             body: {
-              data: data || null,
+              data: serializedData || null,
             },
           },
         };

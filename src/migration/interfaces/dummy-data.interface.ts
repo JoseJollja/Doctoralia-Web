@@ -12,7 +12,7 @@ export interface DoctorData {
 
 export interface TreatmentData {
   name: string;
-  price?: number;
+  price?: string;
   currency?: string;
   durationMinutes?: number;
 }
@@ -32,5 +32,3 @@ export interface DoctorAvailabilityData {
   doctorIndex: number;
   availabilitySlots: AvailabilitySlotData[];
 }
-
-

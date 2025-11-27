@@ -21,7 +21,7 @@ CREATE TABLE treatments (
     id          BIGSERIAL PRIMARY KEY,
     doctor_id   BIGINT      NOT NULL REFERENCES doctors(id),
     name        TEXT        NOT NULL,
-    price       NUMERIC(10,2),
+    price       TEXT,
     currency    CHAR(3),
     duration_minutes SMALLINT
 );

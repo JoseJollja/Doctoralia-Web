@@ -78,7 +78,7 @@ export class HttpExceptionFilter implements ExceptionFilter {
     const errorResponse: ErrorResponse = {
       state: false,
       status,
-      message,
+      message: 'Ocurrió un error en el proceso.',
       payload: {
         state: false,
         message: message,

@@ -1,10 +1,10 @@
-import { IsOptional, IsDateString, IsNumberString } from 'class-validator';
-import { Transform } from 'class-transformer';
+import { IsOptional, IsDateString, IsInt } from 'class-validator';
+import { Type } from 'class-transformer';
 
 export class GetAppointmentsDto {
   @IsOptional()
-  @IsNumberString()
-  @Transform(({ value }) => parseInt(value, 10))
+  @Type(() => Number)
+  @IsInt()
   doctorId?: number;
 
   @IsOptional()
@@ -15,4 +15,3 @@ export class GetAppointmentsDto {
   @IsDateString()
   endDate?: string;
 }
-

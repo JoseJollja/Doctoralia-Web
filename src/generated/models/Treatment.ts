@@ -29,14 +29,12 @@ export type AggregateTreatment = {
 export type TreatmentAvgAggregateOutputType = {
   id: number | null
   doctorId: number | null
-  price: runtime.Decimal | null
   durationMinutes: number | null
 }
 
 export type TreatmentSumAggregateOutputType = {
   id: bigint | null
   doctorId: bigint | null
-  price: runtime.Decimal | null
   durationMinutes: number | null
 }
 
@@ -44,7 +42,7 @@ export type TreatmentMinAggregateOutputType = {
   id: bigint | null
   doctorId: bigint | null
   name: string | null
-  price: runtime.Decimal | null
+  price: string | null
   currency: string | null
   durationMinutes: number | null
 }
@@ -53,7 +51,7 @@ export type TreatmentMaxAggregateOutputType = {
   id: bigint | null
   doctorId: bigint | null
   name: string | null
-  price: runtime.Decimal | null
+  price: string | null
   currency: string | null
   durationMinutes: number | null
 }
@@ -72,14 +70,12 @@ export type TreatmentCountAggregateOutputType = {
 export type TreatmentAvgAggregateInputType = {
   id?: true
   doctorId?: true
-  price?: true
   durationMinutes?: true
 }
 
 export type TreatmentSumAggregateInputType = {
   id?: true
   doctorId?: true
-  price?: true
   durationMinutes?: true
 }
 
@@ -201,7 +197,7 @@ export type TreatmentGroupByOutputType = {
   id: bigint
   doctorId: bigint
   name: string
-  price: runtime.Decimal | null
+  price: string | null
   currency: string | null
   durationMinutes: number | null
   _count: TreatmentCountAggregateOutputType | null
@@ -233,7 +229,7 @@ export type TreatmentWhereInput = {
   id?: Prisma.BigIntFilter<"Treatment"> | bigint | number
   doctorId?: Prisma.BigIntFilter<"Treatment"> | bigint | number
   name?: Prisma.StringFilter<"Treatment"> | string
-  price?: Prisma.DecimalNullableFilter<"Treatment"> | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.StringNullableFilter<"Treatment"> | string | null
   currency?: Prisma.StringNullableFilter<"Treatment"> | string | null
   durationMinutes?: Prisma.IntNullableFilter<"Treatment"> | number | null
   doctor?: Prisma.XOR<Prisma.DoctorScalarRelationFilter, Prisma.DoctorWhereInput>
@@ -259,7 +255,7 @@ export type TreatmentWhereUniqueInput = Prisma.AtLeast<{
   NOT?: Prisma.TreatmentWhereInput | Prisma.TreatmentWhereInput[]
   doctorId?: Prisma.BigIntFilter<"Treatment"> | bigint | number
   name?: Prisma.StringFilter<"Treatment"> | string
-  price?: Prisma.DecimalNullableFilter<"Treatment"> | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.StringNullableFilter<"Treatment"> | string | null
   currency?: Prisma.StringNullableFilter<"Treatment"> | string | null
   durationMinutes?: Prisma.IntNullableFilter<"Treatment"> | number | null
   doctor?: Prisma.XOR<Prisma.DoctorScalarRelationFilter, Prisma.DoctorWhereInput>
@@ -287,7 +283,7 @@ export type TreatmentScalarWhereWithAggregatesInput = {
   id?: Prisma.BigIntWithAggregatesFilter<"Treatment"> | bigint | number
   doctorId?: Prisma.BigIntWithAggregatesFilter<"Treatment"> | bigint | number
   name?: Prisma.StringWithAggregatesFilter<"Treatment"> | string
-  price?: Prisma.DecimalNullableWithAggregatesFilter<"Treatment"> | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.StringNullableWithAggregatesFilter<"Treatment"> | string | null
   currency?: Prisma.StringNullableWithAggregatesFilter<"Treatment"> | string | null
   durationMinutes?: Prisma.IntNullableWithAggregatesFilter<"Treatment"> | number | null
 }
@@ -295,7 +291,7 @@ export type TreatmentScalarWhereWithAggregatesInput = {
 export type TreatmentCreateInput = {
   id?: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
   doctor: Prisma.DoctorCreateNestedOneWithoutTreatmentsInput
@@ -306,7 +302,7 @@ export type TreatmentUncheckedCreateInput = {
   id?: bigint | number
   doctorId: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
   appointments?: Prisma.AppointmentUncheckedCreateNestedManyWithoutTreatmentInput
@@ -315,7 +311,7 @@ export type TreatmentUncheckedCreateInput = {
 export type TreatmentUpdateInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   doctor?: Prisma.DoctorUpdateOneRequiredWithoutTreatmentsNestedInput
@@ -326,7 +322,7 @@ export type TreatmentUncheckedUpdateInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   doctorId?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   appointments?: Prisma.AppointmentUncheckedUpdateManyWithoutTreatmentNestedInput
@@ -336,7 +332,7 @@ export type TreatmentCreateManyInput = {
   id?: bigint | number
   doctorId: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
 }
@@ -344,7 +340,7 @@ export type TreatmentCreateManyInput = {
 export type TreatmentUpdateManyMutationInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
@@ -353,7 +349,7 @@ export type TreatmentUncheckedUpdateManyInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   doctorId?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
@@ -385,7 +381,6 @@ export type TreatmentCountOrderByAggregateInput = {
 export type TreatmentAvgOrderByAggregateInput = {
   id?: Prisma.SortOrder
   doctorId?: Prisma.SortOrder
-  price?: Prisma.SortOrder
   durationMinutes?: Prisma.SortOrder
 }
 
@@ -410,7 +405,6 @@ export type TreatmentMinOrderByAggregateInput = {
 export type TreatmentSumOrderByAggregateInput = {
   id?: Prisma.SortOrder
   doctorId?: Prisma.SortOrder
-  price?: Prisma.SortOrder
   durationMinutes?: Prisma.SortOrder
 }
 
@@ -478,7 +472,7 @@ export type TreatmentUpdateOneRequiredWithoutAppointmentsNestedInput = {
 export type TreatmentCreateWithoutDoctorInput = {
   id?: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
   appointments?: Prisma.AppointmentCreateNestedManyWithoutTreatmentInput
@@ -487,7 +481,7 @@ export type TreatmentCreateWithoutDoctorInput = {
 export type TreatmentUncheckedCreateWithoutDoctorInput = {
   id?: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
   appointments?: Prisma.AppointmentUncheckedCreateNestedManyWithoutTreatmentInput
@@ -526,7 +520,7 @@ export type TreatmentScalarWhereInput = {
   id?: Prisma.BigIntFilter<"Treatment"> | bigint | number
   doctorId?: Prisma.BigIntFilter<"Treatment"> | bigint | number
   name?: Prisma.StringFilter<"Treatment"> | string
-  price?: Prisma.DecimalNullableFilter<"Treatment"> | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.StringNullableFilter<"Treatment"> | string | null
   currency?: Prisma.StringNullableFilter<"Treatment"> | string | null
   durationMinutes?: Prisma.IntNullableFilter<"Treatment"> | number | null
 }
@@ -534,7 +528,7 @@ export type TreatmentScalarWhereInput = {
 export type TreatmentCreateWithoutAppointmentsInput = {
   id?: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
   doctor: Prisma.DoctorCreateNestedOneWithoutTreatmentsInput
@@ -544,7 +538,7 @@ export type TreatmentUncheckedCreateWithoutAppointmentsInput = {
   id?: bigint | number
   doctorId: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
 }
@@ -568,7 +562,7 @@ export type TreatmentUpdateToOneWithWhereWithoutAppointmentsInput = {
 export type TreatmentUpdateWithoutAppointmentsInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   doctor?: Prisma.DoctorUpdateOneRequiredWithoutTreatmentsNestedInput
@@ -578,7 +572,7 @@ export type TreatmentUncheckedUpdateWithoutAppointmentsInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   doctorId?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
@@ -586,7 +580,7 @@ export type TreatmentUncheckedUpdateWithoutAppointmentsInput = {
 export type TreatmentCreateManyDoctorInput = {
   id?: bigint | number
   name: string
-  price?: runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: string | null
   currency?: string | null
   durationMinutes?: number | null
 }
@@ -594,7 +588,7 @@ export type TreatmentCreateManyDoctorInput = {
 export type TreatmentUpdateWithoutDoctorInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   appointments?: Prisma.AppointmentUpdateManyWithoutTreatmentNestedInput
@@ -603,7 +597,7 @@ export type TreatmentUpdateWithoutDoctorInput = {
 export type TreatmentUncheckedUpdateWithoutDoctorInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
   appointments?: Prisma.AppointmentUncheckedUpdateManyWithoutTreatmentNestedInput
@@ -612,7 +606,7 @@ export type TreatmentUncheckedUpdateWithoutDoctorInput = {
 export type TreatmentUncheckedUpdateManyWithoutDoctorInput = {
   id?: Prisma.BigIntFieldUpdateOperationsInput | bigint | number
   name?: Prisma.StringFieldUpdateOperationsInput | string
-  price?: Prisma.NullableDecimalFieldUpdateOperationsInput | runtime.Decimal | runtime.DecimalJsLike | number | string | null
+  price?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   currency?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   durationMinutes?: Prisma.NullableIntFieldUpdateOperationsInput | number | null
 }
@@ -712,7 +706,7 @@ export type $TreatmentPayload<ExtArgs extends runtime.Types.Extensions.InternalA
     id: bigint
     doctorId: bigint
     name: string
-    price: runtime.Decimal | null
+    price: string | null
     currency: string | null
     durationMinutes: number | null
   }, ExtArgs["result"]["treatment"]>
@@ -1143,7 +1137,7 @@ export interface TreatmentFieldRefs {
   readonly id: Prisma.FieldRef<"Treatment", 'BigInt'>
   readonly doctorId: Prisma.FieldRef<"Treatment", 'BigInt'>
   readonly name: Prisma.FieldRef<"Treatment", 'String'>
-  readonly price: Prisma.FieldRef<"Treatment", 'Decimal'>
+  readonly price: Prisma.FieldRef<"Treatment", 'String'>
   readonly currency: Prisma.FieldRef<"Treatment", 'String'>
   readonly durationMinutes: Prisma.FieldRef<"Treatment", 'Int'>
 }
