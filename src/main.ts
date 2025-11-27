@@ -3,15 +3,17 @@ import { ValidationPipe } from '@nestjs/common';
 import { AppModule } from './app.module';
 import { MigrationService } from './migration/services/migration.service';
 import { Logger } from '@nestjs/common';
+import { TransformInterceptor } from './common/interceptors/transform.interceptor';
+import { HttpExceptionFilter } from './common/filters/http-exception.filter';
 
 async function bootstrap() {
   const logger = new Logger('Bootstrap');
-  
+
   const app = await NestFactory.create(AppModule);
-  
+
   // Enable CORS for frontend
   app.enableCors();
-  
+
   // Enable validation globally
   app.useGlobalPipes(
     new ValidationPipe({
@@ -22,10 +24,16 @@ async function bootstrap() {
       },
     }),
   );
-  
+
+  // Apply global response transformation
+  app.useGlobalInterceptors(new TransformInterceptor());
+
+  // Apply global exception filter
+  app.useGlobalFilters(new HttpExceptionFilter());
+
   // Run migration automatically on startup
   const migrationService = app.get(MigrationService);
-  
+
   try {
     await migrationService.runMigration();
     logger.log('Migration process completed successfully');
@@ -33,7 +41,7 @@ async function bootstrap() {
     logger.error('Migration process failed', error);
     process.exit(1);
   }
-  
+
   // Start the server
   const port = process.env.PORT ?? 3000;
   await app.listen(port);
