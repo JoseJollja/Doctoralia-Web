@@ -9,10 +9,10 @@ export class AppointmentsService {
 
   constructor(private readonly database: DatabaseService) {}
 
-  async getAppointments(
-    filters: GetAppointmentsDto,
-  ): Promise<Appointment[]> {
-    this.logger.log(`Getting appointments with filters: ${JSON.stringify(filters)}`);
+  async getAppointments(filters: GetAppointmentsDto): Promise<Appointment[]> {
+    this.logger.log(
+      `Getting appointments with filters: ${JSON.stringify(filters)}`,
+    );
 
     const where: any = {};
 
@@ -166,4 +166,3 @@ export class AppointmentsService {
     return appointments;
   }
 }
-

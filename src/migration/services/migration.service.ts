@@ -147,6 +147,33 @@ export class MigrationService {
 
       // Step 7: Prepare doctor context for appointment generation
       this.logger.log('Preparing doctor context for appointments...');
+
+      // Calculate date range dynamically from availability data
+      const allAvailability = await this.database.doctorAvailability.findMany({
+        select: { startAt: true, endAt: true },
+        orderBy: { startAt: 'asc' },
+      });
+
+      if (allAvailability.length === 0) {
+        this.logger.warn(
+          'No availability data found. Cannot generate appointments.',
+        );
+        return;
+      }
+
+      // Find min and max dates from availability
+      const dates = allAvailability.map((a) => a.startAt);
+      const startDate = new Date(Math.min(...dates.map((d) => d.getTime())));
+      const endDate = new Date(Math.max(...dates.map((d) => d.getTime())));
+
+      // Set to start of first day and end of last day
+      startDate.setHours(0, 0, 0, 0);
+      endDate.setHours(23, 59, 59, 999);
+
+      this.logger.log(
+        `Date range calculated from availability: ${startDate.toISOString()} to ${endDate.toISOString()}`,
+      );
+
       const doctorsContext: DoctorContext[] = [];
 
       for (const doctor of insertedDoctors) {
@@ -155,8 +182,11 @@ export class MigrationService {
           select: { id: true, durationMinutes: true },
         });
 
+        // Get all availability for this doctor (no date filter, we'll filter in generator)
         const availability = await this.database.doctorAvailability.findMany({
-          where: { doctorId: doctor.id },
+          where: {
+            doctorId: doctor.id,
+          },
           select: { startAt: true, endAt: true },
         });
 
@@ -168,14 +198,14 @@ export class MigrationService {
       }
 
       // Step 8: Generate and insert appointments
-      const appointmentsPerDoctor = 15;
       const patientIds = insertedPatients.map((p) => p.id);
 
       const generatedAppointments =
         this.appointmentGenerator.generateAppointments(
           doctorsContext,
           patientIds,
-          appointmentsPerDoctor,
+          startDate,
+          endDate,
         );
 
       this.logger.log('Inserting appointments into database...');
